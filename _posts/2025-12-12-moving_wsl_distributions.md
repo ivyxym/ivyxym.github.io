@@ -1,6 +1,6 @@
 ---
 title: "Moving WSL Distributions from C: to D: Drive - Rethinking the Linux Subsystem Workflow on Windows"
-date: 2025-12-10
+date: 2025-12-12
 
 ---
 
@@ -122,5 +122,6 @@ The `/mnt` prefix means “mounted”—WSL mounts Windows drives instead of acc
 ### 2. `/home/[YOUR NAME]`
 
 This is the **home directory inside the current WSL distribution**.
+
 
 Software installed on Windows isn’t necessarily accessible from inside WSL. For example, installing Node.js on Windows doesn’t make it available in WSL. Since our goal is to avoid Windows-related inconsistencies during development, we should rely heavily on WSL and avoid installing development tools directly through Windows GUI installers.
