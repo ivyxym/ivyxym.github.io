@@ -12,7 +12,7 @@ Today I was learning *The Joy of React*, and I decided to create a simple Bash c
 
 When you open a terminal, you’ll see a string of characters called the **prompt**. It usually indicates your identity, current directory, or permissions (like the `#` in the image). The name “prompt” also suggests that the terminal is ready and waiting for your instructions.
 
-![image-20251211123116200](/assets/images/image-20251211123116200.png)
+![image-20251211123116200](../assets/images/image-20251211123116200.png)
 
 In GitHub READMEs, you often see a `$` before a command. This indicates that it’s a terminal command, not regular code. For example:
 
@@ -22,11 +22,11 @@ $ npm install balabala
 
 You might also encounter other symbols in the terminal, like `%`:
 
-![image-20251211122717794](/assets/images/image-20251211122717794.png)
+![image-20251211122717794](../assets/images/image-20251211122717794.png)
 
 or arrows:
 
-![image-20251211122908146](/assets/images/image-20251211122908146.png)
+![image-20251211122908146](../assets/images/image-20251211122908146.png)
 
 These symbols are mostly just hints. Some indicate user permissions (e.g., root vs normal user), but in general, they all signal that the terminal is ready to accept commands.
 
