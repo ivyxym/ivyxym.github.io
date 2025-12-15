@@ -19,17 +19,17 @@ React focuses on comparing the *before* and *after* states of components. When a
 
 Imagine you have a list of your top three favorite characters from the movie *Inside Out*, and you decide to update the character in third place **(as shown in the illustration below)**. From React’s perspective, several interpretations are possible:
 
-![Target Update](/assets/images/pic_1.jpg)
+![Target Update](../assets/images/pic_1.jpg)
 
 1. It might think it should delete the last `<li>` and create a brand new one with the content “Disgust” **(as shown on the left side of the image below)**.
 
 2. It might think it should simply update the text content of the last `<li>` **(as shown on the right side of the image below)**.
 
-   ![First and Second Possible Update Interpretations](/assets/images/pic_2.jpg)
+   ![First and Second Possible Update Interpretations](../assets/images/pic_2.jpg)
 
 3. Or it might think it should remove “Bing Bong”, move “Sadness” down into the third position, update its content to “Disgust”, and then create a new second item for “Sadness” **(as shown in the illustration below)**.
 
-![Third Possible Update Interpretation](/assets/images/pic_3.jpg)
+![Third Possible Update Interpretation](../assets/images/pic_3.jpg)
 
 Some of these interpretations could cause unnecessary work or lead to unexpected behavior. This is why keys are important: **they help React identify each child reliably**, improving performance and preventing subtle bugs.
 

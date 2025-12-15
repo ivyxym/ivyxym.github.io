@@ -23,7 +23,7 @@ Below is an illustration showing the environment setup required to comfortably d
 
 In short, it involves installing WSL on Windows to act as a Linux environment, then connecting to it using a terminal application like Hyper, which provides a nicer UI, additional features, and a more convenient workflow. After that, we can use Bash or Zsh inside Hyper to interact with the WSL environment.
 
-![Development Environment Overview](/assets/images/251210_pic1.jpg)
+![Development Environment Overview](../assets/images/251210_pic1.jpg)
 
 
 
