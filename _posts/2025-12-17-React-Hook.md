@@ -1,6 +1,6 @@
 ---
 title: "A Mental Model for React Hooks"
-date:2025-12-17
+date: 2025-12-17
 ---
 
 
