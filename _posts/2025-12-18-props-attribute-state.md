@@ -1,5 +1,5 @@
 ---
-title: "Props,Attributes and States"
+title: "Props, Attributes and States"
 date: 2025-12-18
 ---
 
