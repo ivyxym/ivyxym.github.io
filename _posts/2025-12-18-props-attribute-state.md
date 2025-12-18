@@ -1,6 +1,6 @@
 ---
-title:"Props, Attributes and States"
-date:2025-12-18
+title: "Props,Attributes and States"
+date: 2025-12-18
 ---
 
 
